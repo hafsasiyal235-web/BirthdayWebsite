@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  background: linear-gradient(135deg, #ffd6e8, #cdb4ff);
+  color: #4a154b;
+  text-align: center;
+}
+
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #6a0572;
+}
+
+.container {
+  padding: 50px 20px;
+}
+
+.card {
+  background: rgba(255,255,255,0.85);
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 700px;
+  margin: auto;
+}
+
+button {
+  background: #ff4d6d;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#lockScreen {
+  padding: 100px 20px;
+}

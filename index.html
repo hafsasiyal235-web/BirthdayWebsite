@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Happy Birthday Yaram Ki Jan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="lockScreen">
+  <h1>💖 Only For Yaram Ki Jan 💖</h1>
+  <p>Enter the secret word</p>
+  <input type="password" id="password">
+  <button onclick="checkPassword()">Enter</button>
+  <p id="error"></p>
+</div>
+
+<div id="mainContent" style="display:none;">
+  <audio id="bgMusic" autoplay loop>
+    <source src="https://files.catbox.moe/6q6r1r.mp3" type="audio/mp3">
+  </audio>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="love.html">Love</a>
+    <a href="memories.html">Memories</a>
+    <a href="surprise.html">Surprise</a>
+    <a href="forever.html">Forever</a>
+  </nav>
+
+  <div class="container">
+    <h1>🎉 Happy Birthday Yaram Ki Jan 🎉</h1>
+    <p>You are my favorite dream come true 💕</p>
+
+    <h2>🎂 Countdown to Your Special Day</h2>
+    <div id="countdown"></div>
+
+    <button onclick="toggleMusic()">🔊 Music On / Off</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
